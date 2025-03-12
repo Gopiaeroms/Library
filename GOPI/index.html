@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffins & Biryani Delights</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="blinking-text">Tiffins & Biryani Delights</h1>
+            <p>“A taste of tradition with every bite!”</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#order">Order Online</a></li>
+                <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2 class="blinking-text">Welcome to Tiffins & Biryani Delights</h2>
+            <p>Delicious South Indian Tiffins & Biryani, served with love and tradition!</p>
+            <a href="#menu" class="btn-hero">Explore the Menu</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2 class="blinking-text">Our Menu</h2>
+        <div class="menu-section">
+            <!-- Tiffins -->
+            <div class="menu-category">
+                <h3 class="blinking-text">Tiffins</h3>
+                <div class="menu-item">
+                    <img src="idli-image.jpg" alt="Idli" class="menu-image">
+                    <p class="blinking-text">Idli - Soft and fluffy rice cakes</p>
+                    <p><strong>Price:</strong> ₹50</p>
+                    <button class="add-to-cart" data-item="Idli" data-price="50">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="dosa-image.jpg" alt="Dosa" class="menu-image">
+                    <p class="blinking-text">Dosa - Crispy thin crepes</p>
+                    <p><strong>Price:</strong> ₹70</p>
+                    <button class="add-to-cart" data-item="Dosa" data-price="70">Add to Cart</button>
+                </div>
+                <!-- Add more menu items here -->
+ <div class="menu-item">
+                    <img src="vada-image.jpg" alt="Vada">
+                    <p>Vada - Golden-brown lentil donuts</p>
+                    <p><strong>Price:</strong> ₹40</p>
+                    <button class="add-to-cart" data-item="Vada" data-price="40">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="pongal-image.jpg" alt="Pongal">
+                    <p>Pongal - Rice and lentil porridge</p>
+                    <p><strong>Price:</strong> ₹60</p>
+                    <button class="add-to-cart" data-item="Pongal" data-price="60">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Non-Veg Dishes -->
+            <div class="menu-category">
+                <h3>Non-Veg Dishes</h3>
+                <div class="menu-item">
+                    <img src="biryani-image.jpg" alt="Biryani">
+                    <p>Hyderabadi Chicken Biryani</p>
+                    <p><strong>Price:</strong> ₹150</p>
+                    <button class="add-to-cart" data-item="Biryani" data-price="150">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="chicken-curry.jpg" alt="Chicken Curry">
+                    <p>Chicken Curry - Spicy and flavorful</p>
+                    <p><strong>Price:</strong> ₹120</p>
+                    <button class="add-to-cart" data-item="Chicken Curry" data-price="120">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="mutton-curry.jpg" alt="Mutton Curry">
+                    <p>Mutton Curry - Tender mutton in rich gravy</p>
+                    <p><strong>Price:</strong> ₹180</p>
+                    <button class="add-to-cart" data-item="Mutton Curry" data-price="180">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="fish-curry.jpg" alt="Fish Curry">
+                    <p>Fish Curry - Tangy and spicy</p>
+                    <p><strong>Price:</strong> ₹200</p>
+                    <button class="add-to-cart" data-item="Fish Curry" data-price="200">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Cool Drinks -->
+            <div class="menu-category">
+                <h3>Cool Drinks</h3>
+                <div class="menu-item">
+                    <img src="mango-lassi.jpg" alt="Mango Lassi">
+                    <p>Mango Lassi - Smooth and creamy</p>
+                    <p><strong>Price:</strong> ₹60</p>
+                    <button class="add-to-cart" data-item="Mango Lassi" data-price="60">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="lemonade.jpg" alt="Lemonade">
+                    <p>Lemonade - Refreshing and tangy</p>
+                    <p><strong>Price:</strong> ₹40</p>
+                    <button class="add-to-cart" data-item="Lemonade" data-price="40">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="buttermilk.jpg" alt="Buttermilk">
+                    <p>Buttermilk - Cool and soothing</p>
+                    <p><strong>Price:</strong> ₹30</p>
+                    <button class="add-to-cart" data-item="Buttermilk" data-price="30">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Ice Creams -->
+            <div class="menu-category">
+                <h3>Ice Creams</h3>
+                <div class="menu-item">
+                    <img src="vanilla-ice-cream.jpg" alt="Vanilla Ice Cream">
+                    <p>Vanilla Ice Cream - Classic and creamy</p>
+                    <p><strong>Price:</strong> ₹80</p>
+                    <button class="add-to-cart" data-item="Vanilla Ice Cream" data-price="80">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="chocolate-ice-cream.jpg" alt="Chocolate Ice Cream">
+                    <p>Chocolate Ice Cream - Rich and indulgent</p>
+                    <p><strong>Price:</strong> ₹90</p>
+                    <button class="add-to-cart" data-item="Chocolate Ice Cream" data-price="90">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Coffee -->
+            <div class="menu-category">
+                <h3>Coffee</h3>
+                <div class="menu-item">
+                    <img src="espresso.jpg" alt="Espresso">
+                    <p>Espresso - Strong and bold</p>
+                    <p><strong>Price:</strong> ₹60</p>
+                    <button class="add-to-cart" data-item="Espresso" data-price="60">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="cappuccino.jpg" alt="Cappuccino">
+                    <p>Cappuccino - Creamy and frothy</p>
+                    <p><strong>Price:</strong> ₹80</p>
+                    <button class="add-to-cart" data-item="Cappuccino" data-price="80">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items">
+            <!-- Cart items will be displayed here dynamically -->
+        </div>
+        <p id="total-price">Total: ₹0</p>
+        <button id="checkout-btn">Proceed to Checkout</button>
+    </section>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section with Owner Info -->
+    <section id="about">
+        <h2 class="blinking-text">Meet the Owner</h2>
+        <div class="owner-section">
+            <img src="owner-picture.jpg" alt="Owner" class="owner-pic blinking-text">
+            <div class="owner-info">
+                <h3>Gopichand</h3>
+                <p>Gopichand, the passionate owner of Tiffins & Biryani Delights, has been in the culinary world for over 10 years. His dedication to authentic South Indian cuisine and love for traditional flavors is what makes our dishes special.</p>
+                <p><strong>Phone:</strong> <a href="tel:+91-7981978945">+91-7981978945 </a></p>
+                <p><strong>Email:</strong> <a href="mailto:Gopiaeroms200@gmail.com">Gopiaeroms200@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tiffins & Biryani Delights | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
